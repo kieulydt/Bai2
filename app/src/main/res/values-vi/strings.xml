@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="main_content">Đây là ứng dụng đa ngôn ngữ</string>
+    <string name="change_language_title">Thay đổi</string>
+</resources>

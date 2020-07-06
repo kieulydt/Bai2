@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="main_content">This is a multi-language application</string>
+    <string name="change_language_title">Change</string>
+
+</resources>

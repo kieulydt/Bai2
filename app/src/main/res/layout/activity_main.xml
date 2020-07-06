@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="main"
+            type="com.example.sharedpreferences.MainActivity"
+            />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <Button
+            android:id="@+id/button_change_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{ () -> main.openLanguageScreen() }"
+            android:text="@string/change_language_title"
+            />
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/main_content"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/text_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</layout>
